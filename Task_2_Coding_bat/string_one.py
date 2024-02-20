@@ -128,9 +128,9 @@ def left2(str):
     new_str = remaing_char + first_two 
     return new_str
 
-print(left2("Hello"))
-print(left2("java"))
-print(left2("Hi"))
+# print(left2("Hello"))
+# print(left2("java"))
+# print(left2("Hi"))
 
 
 
