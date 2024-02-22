@@ -163,7 +163,7 @@ Given a non-negative number "num", return True if num is within 2 of a multiple 
 def near_ten(num):
     reminder = num % 10 
     return reminder <= 2 or reminder >= 8 
-print(near_ten(12))
-print(near_ten(17))
-print(near_ten(19))
+# print(near_ten(12))
+# print(near_ten(17))
+# print(near_ten(19))
     
