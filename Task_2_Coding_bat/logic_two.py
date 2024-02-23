@@ -127,12 +127,12 @@ def make_chocolate(small, big, goal):
     else: 
         return -1
 
-print(make_chocolate(4, 1, 9))
-print(make_chocolate(4, 1, 10))
-print(make_chocolate(4, 1, 7))
-print(make_chocolate(6,2,7))
-print(make_chocolate(4,1,4))
-print(make_chocolate(5,4,9))
+# print(make_chocolate(4, 1, 9))
+# print(make_chocolate(4, 1, 10))
+# print(make_chocolate(4, 1, 7))
+# print(make_chocolate(6,2,7))
+# print(make_chocolate(4,1,4))
+# print(make_chocolate(5,4,9))
 
 
 
