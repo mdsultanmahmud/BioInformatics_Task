@@ -6,7 +6,6 @@ def validate_sequence(test_seq):
             return False 
     return tem_seq 
 
-
 def findPatternAndIndex(seq, pattern):
     seq = seq.upper()
     pattern = pattern.upper() 
@@ -30,5 +29,4 @@ def findPatternAndIndex(seq, pattern):
 
 sequence = "CTAGCAGCCGCGGTAAAACGTAGGTCACAAGCGTTGTCCGGAATTACTGGGTGTAAAGGGAGCGCAGGCGGGAAGACAAGTTTGTAGTGAAATCCATGGGCTCAACCCATGAACTGCTTTCAAAACTGTTTTTCTTGAGTAGTGCAGAGGTAGGCGGAATTCCCGGTGTAGCGGTGGAATGTGTAGATATCGGGAGGAACACCAGTGGCGAAGGCGGCCTCCTGGGCACCAACTGACGCTGAGGCTCGAAAGTGTGGGTAGCAAACAGGATTAGATACCCTTGTAGTCCCCACCGTAATCC"
 pattern = input("Enter a pattern: ")
-# sequence = "CTAGCTAGCCCTA"
 print(findPatternAndIndex(sequence, pattern))

@@ -95,7 +95,7 @@ def xyz_there(str):
                 status = True
             else: status = False
     return status
-print(xyz_there('abcxyz'))
-print(xyz_there('abc.xyz') )
-print(xyz_there('xyz.abc') )
-print(xyz_there('abc.xyzxyz'))
+# print(xyz_there('abcxyz'))
+# print(xyz_there('abc.xyz') )
+# print(xyz_there('xyz.abc') )
+# print(xyz_there('abc.xyzxyz'))
